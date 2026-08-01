@@ -24,7 +24,7 @@ function App() {
           </div>
           <div className="boas-vindas">
         
-            <h1>Olá, Aluno(a)!! 👋</h1>
+            <h1>Olá, Aluno(a)! 👋</h1>
             <p>Bem-vindo(a) ao seu portal</p>
           </div>
 
