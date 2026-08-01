@@ -13,12 +13,30 @@ body {
 }
 
 .modulo-content {
-  padding: 80px;
+  padding: 0px 0px 20px 0px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #14385a;
+  padding: 0px 40px;
+  margin-bottom: 20px;
+}
+
+.cabecalho img {
+  max-height: 60px;
+}
+
+.material-symbols-outlined.user-icon {
+  font-size: 35px;
+  color: #f8fafc;
 }
 
 .boas-vindas {
   text-align: center;
-  padding: 20px;
+  padding: 80px 80px 20px 80px; 
   background: #f8fafc;
   margin-bottom: 20px;
 }
@@ -42,6 +60,7 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   margin: 0 auto;
+  padding: 0 80px;
 }
 
 .card-dashboard {

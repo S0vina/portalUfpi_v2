@@ -1,5 +1,5 @@
-import { useState } from 'react'
 import './App.css'
+import logo from "./assets/logo_branco.png";
 
 function App() {
 
@@ -9,10 +9,23 @@ function App() {
 
   return (
     <>
+      <link 
+        rel="stylesheet" 
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,400,0,0&icon_names=account_circle" 
+      />
+
        <div id="view-inicio" className="modulo-content">
+          <div className="cabecalho">
+            <img src={logo} alt="Logo" />
+            <span className="material-symbols-outlined user-icon" >
+              
+              account_circle
+            </span >
+          </div>
           <div className="boas-vindas">
-            <h1>Olá, Aluno! 👋</h1>
-            <p>Bem-vindo ao seu portal</p>
+        
+            <h1>Olá, Aluno(a)! 👋</h1>
+            <p>Bem-vindo(a) ao seu portal</p>
           </div>
 
           {/* DIV CONTAINER DAS FEATURES */}
